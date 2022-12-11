@@ -6,7 +6,7 @@
 
 **Telegram:** <https://t.me/nastaion>
 
-**E-mail:** nastya.ionicova@gmail.com
+**E-mail:** <nastya.ionicova@gmail.com>
 
 **GitHub:** <https://github.com/nastaion>
 
@@ -40,23 +40,15 @@
 
 ### Education and self-education
 
-+ Philological Faculty of the BSU (Bachelor, 2017)
+1. Philological Faculty of the BSU (Bachelor, 2017)
 
-+ HTML academy (Introduction to web development)
+2. HTML academy (Introduction to web development)
 
-+ Hexlet (JavaScript Setup)
+3. Hexlet (JavaScript Setup)
 
 ### Few words about me
 
-I really like to try myself in different areas.
-
-During my life, I managed to be a school teacher, SMM manager, marketer and copywriter, as well as a technical specialist and broadcaster of events.
-
-If I'm interested in what I'm doing, I dive deep into the topic, learn quickly, and try to achieve the best possible result.
-
-I am interested in project employment in a small team, because it is important for me to maintain relations with the team and see the results of my work.
-
-Feel free to text me if you have interesting proposals!
+I really like to try myself in different areas. During my life, I managed to be a school teacher, SMM manager, marketer and copywriter, as well as a technical specialist and broadcaster of events. If I'm interested in what I'm doing, I dive deep into the topic, learn quickly, and try to achieve the best possible result. I am interested in project employment in a small team, because it is important for me to maintain relations with the team and see the results of my work. Feel free to text me if you have interesting proposals!
 
 ### Language skills
 
