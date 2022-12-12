@@ -1,3 +1,6 @@
 <body> {
-background-color: #DBD2CB;
+background-color: #dbd2cb;
+}
+<h2> {
+color: #fe4db7;
 }
