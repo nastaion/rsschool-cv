@@ -1,6 +1,9 @@
-<body> {
+* {
 background-color: #dbd2cb;
 }
-<h2> {
-color: #fe4db7;
+.header-nav-list {
+display: inline;
+}
+.nav-item {
+list-style-type:none;
 }
