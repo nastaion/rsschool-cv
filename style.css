@@ -1,0 +1,9 @@
+* {
+background-color: #dbd2cb;
+}
+.header-nav-list {
+display: inline;
+}
+.nav-item {
+list-style-type:none;
+}
