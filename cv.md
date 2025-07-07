@@ -1,3 +1,5 @@
+![Digital avatar - Nasta Ion] (ion.jpg)
+
 # Nasta Ion
 
 ## Contacts
