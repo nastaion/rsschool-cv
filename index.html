@@ -6,54 +6,48 @@
     <meta name="description" content="Web Technical Specialist Nasta Ion">
     <meta name="keywords" content="OTT specialist, VOD specialist, technical specialist, website specialist, HTML, CSS, layout">
     <title> Nasta Ion - Technical Specialist - CV</title>
-</head>
+  </head>
   <body>
     <main class="main">
-        <section class="section" id="contacts">
-            <h2>Contacts</h2>
-            <p>
-            <b>GitHub: </b><a href="https://github.com/nastaion">nastaion</a>
-            </p>
-        </section>
-        <section class="section" id="code">
-            <h2>Code</h2>
-            <h3>JavaScript</h3>
-            <code>
-                function multiply(a,b){
-                    a * b
-                    }
-            </code>
-            <h3>R</h3>
-            <code>
-                priceplot = function(data, ticker, normalise=F){
-    
-                    if (normalise) {
-                        data = data %>% spread(stock, close) 
-                        
-                        for (it in c(2:17)){
-                          data[it] = (data[it])/(data[1,it])*100
-                          }
-                        
-                        data = data %>% gather(key = stock, value =close, -date)
-                      }
-                      
-                       data %>%  
-                         filter(stock %in% ticker) %>%
-                         ggplot(aes(x = date, y = close, colour = stock)) +
-                         geom_line() +
-                         labs (title = ticker)
-                  } 
-             </code>
-        </section>
-        <section class="section" id="lang">
-            <h2>Languages</h2>
-            <ul>
-                <li>English (A2)</li>
-                <li>Belarusian (native)</li>
-                <li>Russian (C2)</li>
-                <li>Polish (A2)</li>
-            </ul>
-        </section>
+      <section class="section" id="contacts">
+        <h2>Contacts</h2>
+        <p><b>GitHub: </b><a href="https://github.com/nastaion">nastaion</a></p>
+      </section>
+      <section class="section" id="code">
+        <h2>Code</h2>
+        <h3>JavaScript</h3>
+        <code>
+          function multiply(a,b){
+          a * b
+          }
+        </code>
+        <h3>R</h3>
+        <code>
+          priceplot = function(data, ticker, normalise=F){
+          if (normalise) {
+          data = data %>% spread(stock, close) 
+          for (it in c(2:17)){
+          data[it] = (data[it])/(data[1,it])*100
+          }
+          data = data %>% gather(key = stock, value =close, -date)
+          }
+          data %>%  
+          filter(stock %in% ticker) %>%
+          ggplot(aes(x = date, y = close, colour = stock)) +
+          geom_line() +
+          labs (title = ticker)
+          } 
+        </code>
+      </section>
+      <section class="section" id="lang">
+        <h2>Languages</h2>
+        <ul>
+          <li>English (A2)</li>
+          <li>Belarusian (native)</li>
+          <li>Russian (C2)</li>
+          <li>Polish (A2)</li>
+        </ul>
+      </section>
     </main>
   </body>
 </html>
