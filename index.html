@@ -21,7 +21,7 @@
             <li class="nav-item"><a href="#contacts">Contacts</a></li>
             <li class="nav-item"><a href="#key-skills">Key Skills</a></li>
             <li class="nav-item"><a href="#experience">Experience</a></li>
-            <li class="nav-item"><a href="#code">Code examples</a></li>
+            <li class="nav-item"><a href="#code-examples">Code examples</a></li>
             <li class="nav-item"><a href="#projects">Projects</a></li>
             <li class="nav-item"><a href="#languages">Languages</a></li>
             <li class="nav-item"><a href="#education">Education</a></li>
@@ -85,7 +85,61 @@
             </li>
           </ol>
         </section>
-      <section class="section" id="lang">
+        <section class="container" id="experience">
+          <h2 class="section-title">Experience</h2>
+          <ol class="experience-list-ordered">
+            <li class="experience-item-ordered">Technical specialist - Present - Remote
+              <ul class="experience-list-unordered">
+                <li class="experience-item-unordered">Launched and managed a dual-purpose OTT platform (Vimeo OTT) and website with custom UX and content structure (Tilda CMS) under tight deadlines.</li>
+                <li class="experience-item-unordered">Filed DMCA takedowns and coordinated with DRM provider after identifying pirated content and distribution channels.</li>
+                <li class="experience-item-unordered">Built a dynamic FAQ system based on Vimeo documentation and recurring user issues reducing support queries by 40% and improving user experience</li>
+                <li class="experience-item-unordered">Oversaw publication of 100+ films, ensuring accurate metadata, rights compliance, and scheduled access.</li>
+                <li class="experience-item-unordered">Prepared and implemented annual updates and a content archive.</li>
+              </ul>
+            </li>
+            <li class="experience-item-ordered">Zoom & Digital Events Coordinator - 2023 - Remote
+              <ul class="experience-list-unordered">
+                <li class="experience-item-unordered">Hosted 30+ live and pre-recorded online events (Zoom, Vimeo, Castr), ensuring stable streaming and content delivery.</li>
+                <li class="experience-item-unordered">Managed technical setup, recordings, and publication processes with editors and designers</li>
+              </ul>
+            </li>
+          </ol>
+        </section>
+        <section class="container" id="code-examples">
+          <h2 class="section-title">Code Examples</h2>
+          <h3 class="section-subtitle">R</h3>
+          <pre class="code-example">
+            <code class="r-example">
+priceplot &lt;- function(data, ticker, normalise=F){
+    
+  if (normalise) {
+      data  &lt;- data %&gt;% spread(stock, close) 
+      
+      for (it in c(2:17)){
+        data[it] &lt;- (data[it])/(data[1,it])*100
+        }
+      
+      data &lt;- data %&gt;% gather(key = stock, value =close, -date)
+    }
+    
+     data %&gt;%  
+       filter(stock %in% ticker) %&gt;%
+       ggplot(aes(x = date, y = close, colour = stock)) +
+       geom_line() +
+       labs (title = ticker)
+} 
+            </code>
+          </pre>
+          <h3 class="section-subtitle">SQL</h3>
+          <pre class="code-example">
+            <code class="sql-example">
+              select * from interviews 
+              where suspect_id in (35, 44, 97)
+            </code>
+          </pre>
+        </section>
+        <section class="container" id="languages">
+    
         <h2>Languages</h2>
         <ul>
           <li>English (A2)</li>
