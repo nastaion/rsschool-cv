@@ -2,3 +2,6 @@
   box-sizing: border-box;
   align-items: center;
 }
+body {
+  font-family: 'Jost', sans-serif;
+}
