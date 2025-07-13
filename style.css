@@ -1,7 +1,73 @@
 * {
-  box-sizing: border-box;
-  align-items: center;
+box-sizing: border-box;
 }
 body {
-  font-family: 'Jost', sans-serif;
+    font-family: 'Jost', sans-serif;
+}
+.container-centered {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #FFFAE0;
+    border-radius:60px;
+}
+.nav-list {
+    list-style: none;
+    padding: 20px 30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin: 0 auto 40px;
+    width: fit-content;
+}
+.section-title {
+    display: inline-block;
+    color: white;
+    background-color: #d750ef;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: 700;
+}
+.image-ion {
+    height: 260px;
+    width: 260px;
+    border-radius:60px;
+}
+.experience-item-ordered {
+    font-weight: 700;
+}
+.experience-item-unordered {
+    font-weight: 400;
+}
+.skills-item-ordered {
+    font-weight: 700;
+}
+.skills-item-unordered {
+    font-weight: 400;
+}
+.footer {
+    margin-top: 40px;
+
+}
+.footer-list {
+    list-style: none;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    width: fit-content;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 40px;
+}
+.footer-rs-logo {
+    width: 120px;
+    height: auto;
+}
+.skills-item-ordered {
+    font-weight: 700;
 }
