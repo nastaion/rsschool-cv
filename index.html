@@ -112,29 +112,29 @@
             <pre class="code-example">
               <code class="r-example">
 priceplot &lt;- function(data, ticker, normalise=F){
-    
+
   if (normalise) {
-      data  &lt;- data %&gt;% spread(stock, close) 
-      
+      data  &lt;- data %&gt;% spread(stock, close)
+
       for (it in c(2:17)){
         data[it] &lt;- (data[it])/(data[1,it])*100
         }
-      
+
       data &lt;- data %&gt;% gather(key = stock, value =close, -date)
     }
-    
-     data %&gt;%  
+
+     data %&gt;%
        filter(stock %in% ticker) %&gt;%
        ggplot(aes(x = date, y = close, colour = stock)) +
        geom_line() +
        labs (title = ticker)
-} 
+}
               </code>
             </pre>
             <h3 class="section-subtitle">SQL</h3>
             <pre class="code-example">
               <code class="sql-example">
-              select * from interviews 
+              select * from interviews
               where suspect_id in (35, 44, 97)
               </code>
             </pre>
@@ -168,23 +168,15 @@ priceplot &lt;- function(data, ticker, normalise=F){
           </section>
         </div>
       </main>
-          <footer class="footer">
-            <div class="container">
-              <table class="footer-table">
-                <tbody class="footer-tbody">
-                <tr class="footer-tr">
-                  <td class="footer-td">2025</td>
-                  <td class="footer-td"><a class="footer-github-link" href="https://github.com/nastaion/">GitHub</a></td>
-                  <td class="footer-td">
-                    <a class="rs-link" href="https://rs.school/">
-                      <img class="footer-rs-logo" src="assets/img/rs-school-logo.svg" alt="Rolling Scopes School Logo">
-                    </a>
-                  </td>
-                </tr>
-                </tbody>
-              </table>
-            </div>
-          </footer>
+      <footer class="footer">
+        <div class="container">
+          <ul class="footer-list">
+            <li class="footer-item">2025</li>
+            <li class="footer-item"><a class="footer-github-link" href="https://github.com/nastaion/">GitHub</a></li>
+            <li class="footer-item"><a class="rs-link" href="https://rs.school/"><img class="footer-rs-logo" src="assets/img/rs-school-logo.svg" alt="Rolling Scopes School Logo"></a></li>
+          </ul>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
