@@ -36,6 +36,12 @@ body {
     width: 260px;
     border-radius:60px;
 }
+.experience-item-ordered {
+    font-weight: 700;
+}
+.experience-item-unordered {
+    font-weight: 400;
+}
 .skills-item-ordered {
     font-weight: 700;
 }
