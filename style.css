@@ -56,3 +56,6 @@ body {
     width: 120px;
     height: auto;
 }
+.skills-item-ordered {
+    font-weight: 700;
+}
