@@ -36,6 +36,12 @@ body {
     width: 260px;
     border-radius:60px;
 }
+.skills-item-ordered {
+    font-weight: 700;
+}
+.skills-item-unordered {
+    font-weight: 400;
+}
 .footer {
     margin-top: 40px;
 
