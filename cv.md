@@ -1,3 +1,4 @@
+![Nasta Ion - digital avatar] (ion.jpg)
 # Nasta Ion 
 ## Contacts
 + [GitHub](https://github.com/nastaion)
