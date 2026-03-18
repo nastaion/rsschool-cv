@@ -1,10 +1,13 @@
 ![Nasta Ion - digital avatar](ion.jpg)
 # Nasta Ion 
+
 ## Contacts
 + [GitHub](https://github.com/nastaion)
 + [Discord](https://discord.com/channels/1072442477627318282)
+
 ## About me
 I'm trying not to die and find some interesting things in my life. I'm trying to finish JS Pre-School course for the 4th or 5th time - so I'm pretty persistent person. If you want to give me money please contact me via Discord.
+
 ## Skills
 + Markdown
 + Markup
@@ -14,10 +17,12 @@ I'm trying not to die and find some interesting things in my life. I'm trying to
 + OTT
 + VOD
 + SQL
+
 ## Work experience
 + Freelance
 + Freelance
 + Freelance
+
 ## Code examples
 1. JavaScript
 ```function century(year) {
@@ -48,6 +53,7 @@ where suspect_id in (35, 44, 97)
        labs (title = ticker)
 }
 ```
+
 ## Languages 
 + English (Advanced)
 + Russian (native)
