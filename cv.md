@@ -17,3 +17,40 @@ I'm trying not to die and find some interesting things in my life. I'm trying to
 + Freelance
 + Freelance
 + Freelance
+## Code examples
+1. JavaScript
+```function century(year) {
+  return Math.floor((year + 99) / 100);
+  }
+```
+2. SQL
+```select * from interviews
+where suspect_id in (35, 44, 97)
+```
+3. R
+```priceplot <- function(data, ticker, normalise=F){
+    
+  if (normalise) {
+      data  <- data %>% spread(stock, close) 
+      
+      for (it in c(2:17)){
+        data[it] <- (data[it])/(data[1,it])*100
+        }
+      
+      data <- data %>% gather(key = stock, value =close, -date)
+    }
+    
+     data %>%  
+       filter(stock %in% ticker) %>%
+       ggplot(aes(x = date, y = close, colour = stock)) +
+       geom_line() +
+       labs (title = ticker)
+}
+```
+## Languages 
++ English (Advanced)
++ Russian (native)
++ Belarusian (native)
+
+## Education
+Bachelor Degree | Slavic Philology | BSU
